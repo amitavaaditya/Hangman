@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/messageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_message"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/countView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageView"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/wordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countView"
+        android:layout_above="@+id/chooseCharacterView"
+        android:textSize="40sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/chooseCharacterView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_character"
+        android:layout_above="@+id/characterGridLayout"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.GridLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/characterGridLayout"
+        app:columnCount="4"
+        app:rowCount="7"
+        app:alignmentMode="alignBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonA"
+            android:text="@string/a"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:text="@string/b"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:text="@string/c"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:text="@string/d"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonE"
+            android:text="@string/e"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonF"
+            android:text="@string/f"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonG"
+            android:text="@string/g"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonH"
+            android:text="@string/h"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonI"
+            android:text="@string/i"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonJ"
+            android:text="@string/j"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonK"
+            android:text="@string/k"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonL"
+            android:text="@string/l"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonM"
+            android:text="@string/m"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonN"
+            android:text="@string/n"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonO"
+            android:text="@string/o"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonP"
+            android:text="@string/p"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonQ"
+            android:text="@string/q"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonR"
+            android:text="@string/r"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonS"
+            android:text="@string/s"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonT"
+            android:text="@string/t"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonU"
+            android:text="@string/u"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonV"
+            android:text="@string/v"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonW"
+            android:text="@string/w"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonX"
+            android:text="@string/x"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/buttonY"
+            android:text="@string/y"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:id="@+id/buttonZ"
+            android:text="@string/z"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:onClick="characterClicked" />
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <!--MainActivity-->
+
+    <!--InitFragment-->
+    <string name="initial_message">Welcome to hangman! I will pick a word and you will try to guess
+        it character by character. If you guess wrong 6 times, then I win. If you can guess it
+        before then, you win. Are you ready? I hope so because I am."</string>
+    <string name="continue_message">Click to continue…</string>
+
+    <!--HangmanFragment-->
+    <string name="game_message">I have picked my word. Make your guess!</string>
+    <string name="chances_remaining">Remaining attempts: </string>
+    <string name="enter_character">Click a character you think is in the word</string>
+
+    <!--alphabets-->
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="v">V</string>
+    <string name="w">W</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="game_won">Congrats! You guesses the word correctly and won the game! You are a champ!</string>
+    <string name="game_lost">Oops! You used up all guesses but failed to guess the complete mystery word.</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit</string>
+    <string name="good_guess">Good guess!</string>
+    <string name="bad_guess">Wrong guess!</string>
+    <string name="already_guessed">That character is already guessed!</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="expert">Expert</string>
+    <string name="choose_level">Choose level</string>
+
+</resources>
