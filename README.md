@@ -1,2 +1,2 @@
 # Hangman
-Simple Android app app implementation of Hangman game. Test your vocabulary!
+Simple Android app implementation of Hangman game. Test your vocabulary!
